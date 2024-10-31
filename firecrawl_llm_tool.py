@@ -13,11 +13,25 @@ def mapping_function():
         json.dump(map_result, f, indent=4)
     return
 
-def scrapping_function():
+def scrapping_function(website_url):
     app = FirecrawlApp(api_key=firecrawl_api_key)
-    scrape_result = app.scrape_url('designgaga.ca', params={'formats': ['markdown']})
-    # print(scrape_result)
-    markdown_file = scrape_result['markdown']
-    with open('scrapped_data.md', 'w', encoding='utf-8') as file:
-        file.write(markdown_file)
+    specific_pages = [
+        website_url,  # Main page
+        f"{website_url}/about-us",
+        f"{website_url}/services",
+        f"{website_url}/careers",
+        f"{website_url}/portfolio",
+        f"{website_url}/contact"
+    ]
+    scraped_data = {}
+    for page in specific_pages:
+        scrape_result = app.scrape_url(page, params={'formats': ['markdown']})
+        scraped_data[page] = scrape_result.get('markdown', 'No content available')
+    with open('scraped_data.json', 'w', encoding='utf-8') as md_file:
+        json.dump(scraped_data, md_file, ensure_ascii=False, indent=4)
+    # scrape_result1 = app.scrape_url('designgaga.ca', params={'formats': ['markdown']})
+    # scrape_result2 = app.scrape_url('https://designgaga.ca/contact', params={'formats': ['markdown']})
+    # markdown_file = scrape_result1['markdown'] + "\n\n---\n\n" + scrape_result2['markdown']
+    # with open('scrapped_data.md', 'w', encoding='utf-8') as file:
+    #     file.write(markdown_file)
     return

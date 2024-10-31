@@ -119,3 +119,37 @@ For home staging, Design brings a blend of modern flair and timeless elegance. W
 ![Instagram post from designgaga78. This post is in position 5.](https://designgaga.ca/wp-content/uploads//inavii-social-feed/18039423128231888-m.jpg)
 
 Scroll to Top
+
+---
+
+
+
+- [HOME](https://designgaga.ca/)
+- [CONTACT](https://designgaga.ca/contact/)
+
+## Contact
+
+## DesignGaga is a creative home staging studio based in Toronto. Known for turning spaces into showstoppers, we specialize in designing homes that resonate with today's market.
+
+## Get In Touch
+
+- [(437) 987 8666](tel:+1437%20987%208666)
+- Gagan@designgaga.ca
+
+## Have a question or compliment? Let us know in the form below.
+
+Please enable JavaScript in your browser to complete this form.
+
+Name \*
+
+Email Address \*
+
+Message
+
+Send Inquiry![Loading](https://designgaga.ca/wp-content/plugins/wpforms/assets/images/submit-spin.svg)
+
+## Follow
+
+## [@Designgaga78](https://www.instagram.com/designgaga78/)
+
+Scroll to Top

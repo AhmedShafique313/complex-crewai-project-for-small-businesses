@@ -8,7 +8,7 @@ llm = ChatOpenAI(
 
 def main():
     mapping_function()
-    scrapping_function()
+    scrapping_function('designgaga.ca')
 
 if __name__ == '__main__':
     main()
