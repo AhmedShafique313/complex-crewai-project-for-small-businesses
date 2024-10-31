@@ -29,9 +29,4 @@ def scrapping_function(website_url):
         scraped_data[page] = scrape_result.get('markdown', 'No content available')
     with open('scraped_data.json', 'w', encoding='utf-8') as md_file:
         json.dump(scraped_data, md_file, ensure_ascii=False, indent=4)
-    # scrape_result1 = app.scrape_url('designgaga.ca', params={'formats': ['markdown']})
-    # scrape_result2 = app.scrape_url('https://designgaga.ca/contact', params={'formats': ['markdown']})
-    # markdown_file = scrape_result1['markdown'] + "\n\n---\n\n" + scrape_result2['markdown']
-    # with open('scrapped_data.md', 'w', encoding='utf-8') as file:
-    #     file.write(markdown_file)
-    return
+    return scraped_data
