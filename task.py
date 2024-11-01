@@ -9,7 +9,7 @@ file_reader_task = Task(
 )
 
 icp_generator_task = Task(
-    description='Read the data from the .md file and generates the ideal customer profile according to the industry related to the business also find the target audience',
+    description='Read the data from the .md file and generates the ideal customer profile according to the industry related to the business also find the target audience also add the Geographic Location',
     expected_output='Generate the Ideal Customer Profile from the data and only save the ICP data in the output file',
     agent=icp_generator_agent,
     output_file='icp_data.md',
