@@ -9,7 +9,16 @@ file_reader_task = Task(
 )
 
 icp_generator_task = Task(
-    description='Read the data from the .md file and generates the ideal customer profile according to the industry related to the business also find the target audience also add the Geographic Location',
+    description="""Generates the ideal customer profile for Realtors Using Home Staging Services according to the industry related to the business also make some points with more detailing:
+    Demographics: Including title/role, experience level, geographic location, agency size etc.
+    Professional Goals: Including faster sales, maximizing property value, client satisfaction etc.
+    Pain Points: Including difficult to move listings, lack of visual appeal, limited time or expertise, higher costs etc.
+    Buying Triggers: Including new listings, luxury or high-value homes, sellers market, price-reduction pressure etc.
+    Value Proposition for Real Estate Agents: Including enhanced marketing materials, full-service staging etc.
+    Customer Behavior: Including relationship-oriented, tech-savvy etc.
+    Marketing Channels to Reach Them: Including email campaigns, linkedIn & facebook ads, industry events and networking.
+    Make a format bullet points and sub-bullet points. 
+    """,
     expected_output='Generate the Ideal Customer Profile from the data and only save the ICP data in the output file',
     agent=icp_generator_agent,
     output_file='icp_data.md',
