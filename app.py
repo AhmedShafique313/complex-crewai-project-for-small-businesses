@@ -5,6 +5,7 @@ def main():
     mapping_function()
     crew1.kickoff()
     crew2.kickoff()
+    print(crew2)
 
 if __name__ == '__main__':
     main()

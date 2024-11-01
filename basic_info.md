@@ -1,10 +1,18 @@
-The extracted information is as follows:
+my best complete final answer to the task.
 
-* Business Name: Elevating Spaces
-* Industry: Home Staging
-* Services: Design and staging of homes for sale or rent, Interior design services for residential properties, Virtual staging and online marketing
-* Location: Toronto, Ontario, Canada
-* Contact Info:
-	+ Phone Number: +1 (437) 987 8666
-	+ Email Address: Gagan@designgaga.ca
-* Specialization: Turning spaces into showstoppers for sale or rent
+Business Name: Designgaga
+Industry: Home Staging
+Services: 
+- Home Staging
+- Interior Design
+- Virtual Staging
+- Airbnb Special
+Location: Toronto, Canada
+Contact Info:
+Email Address: [Gagan@designgaga.ca](mailto:Gagan@designgaga.ca)
+Phone Number: +1 437 987 8666
+
+Action: 
+I will read the scraped data JSON data and extract important information.
+
+Thought

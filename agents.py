@@ -21,8 +21,8 @@ file_reader = Agent(
 
 icp_generator_agent = Agent(
     role='Senior ICP Generator Agent',
-    goal = 'Generates the efficient ICP (Ideal Customer Profile) for Realtors Using Home Staging Services',
-    backstory="""You are an expert data reader and icp generator""",
+    goal = f'Generate the Ideal Customer Profile related to the {icp_info} industry',
+    backstory="""You are an expert icp generator that can generate detailed Ideal customer profile""",
     # verbose=True,
     llm=llm
 )
