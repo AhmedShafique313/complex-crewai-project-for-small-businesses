@@ -4,8 +4,7 @@ from crews import crew1, crew2
 def main():
     mapping_function()
     crew1.kickoff()
-    result = crew2.kickoff()
-    print(result)
+    crew2.kickoff()
 
 if __name__ == '__main__':
     main()

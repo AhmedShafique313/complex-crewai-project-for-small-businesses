@@ -15,15 +15,14 @@ file_reader = Agent(
     role='Senior JavaScript Object Notation Data Reader',
     goal=f'Effectively the entire read json data from {info} and extract important information',
     backstory="""You are a expert json data reader.""",
-    tools=[],
-    verbose=True,
+    # verbose=True,
     llm = llm
 )
 
 icp_generator_agent = Agent(
     role='Senior ICP Generator Agent',
-    goal = f'Read the data from {icp_info} and generates the efficient ICP (Ideal Customer Profile) for the business',
+    goal = f'Read the data from {icp_info} and generates the efficient ICP (Ideal Customer Profile) for the industry',
     backstory="""You are an expert data reader and icp generator""",
-    verbose=True,
+    # verbose=True,
     llm=llm
 )
